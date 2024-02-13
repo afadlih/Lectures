@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2023-10-10T12:34:10.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="TNuYF5h3dwB4IZOf-lNc" version="22.0.2" type="device">
+  <diagram name="Page-1" id="sdpkX_ltfg7Xu6RejbBT">
+    <mxGraphModel dx="802" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-1" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576.5" y="20" width="117" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-2" value="String buku&lt;br&gt;double diskon&lt;br&gt;int jumlah,harga" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="576.5" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-3" value="input buku&lt;br&gt;input diskon&lt;br&gt;input jumlah&lt;br&gt;input harga" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="578" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-4" value="jumlah&amp;gt;3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="587" y="320" width="103" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-5" value="diskon=0.05" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="593.5" y="420" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-6" value="diskon 0.08" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="420" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-7" value="buku==&quot;novel&quot;&lt;br&gt;&amp;amp;&amp;amp;jumlah&amp;gt;3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="210" width="125" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-8" value="buku==&amp;nbsp;&quot;kamus&quot;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;jumlah&amp;gt;2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wyUG4lzpknkS4h0Ekx74-10" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="420" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

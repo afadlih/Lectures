@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2023-10-10T09:20:18.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="iIh8bMKv_q6Uu71cIUkO" version="22.0.2" type="device">
+  <diagram name="Page-1" id="oNBpgr9-kcMZfTgcu489">
+    <mxGraphModel dx="522" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-1" target="-IGBUGDCAI_c_KSi5wvE-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-1" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="60" width="146" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-4" target="-IGBUGDCAI_c_KSi5wvE-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-4" value="String username,&lt;br&gt;masukkanusername,&lt;br&gt;password,&lt;br&gt;masukkanpassword," style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="360.5" y="159" width="133" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-6" target="-IGBUGDCAI_c_KSi5wvE-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-6" value="masukkanusername&lt;br&gt;masukkanpassword" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="280" width="143.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-8" target="-IGBUGDCAI_c_KSi5wvE-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-8" target="-IGBUGDCAI_c_KSi5wvE-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-8" value="username==masukkanusername" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="325.72" y="380" width="202.06" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-10" target="-IGBUGDCAI_c_KSi5wvE-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-10" value="output&lt;br&gt;&quot;usernamesalah&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-11" target="-IGBUGDCAI_c_KSi5wvE-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-11" target="-IGBUGDCAI_c_KSi5wvE-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-11" value="password==masukkanpassword" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="530" width="213.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-13" target="-IGBUGDCAI_c_KSi5wvE-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-13" value="output &lt;br&gt;&quot;Berhasil Masuk&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="366.75" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-IGBUGDCAI_c_KSi5wvE-14" target="-IGBUGDCAI_c_KSi5wvE-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-14" value="output&lt;br&gt;&quot;Passwordsalah&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-IGBUGDCAI_c_KSi5wvE-15" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="367" y="770" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,65 @@
+<mxfile host="Electron" modified="2023-10-26T14:32:50.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Ii5gFr0PQTuYFw87_knv" version="22.0.3" type="device">
+  <diagram name="Page-1" id="JOPfILi7Thtt4lNkJ_Zj">
+    <mxGraphModel dx="521" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="v_iLCOKX3GH_ExPduk-p-1" target="v_iLCOKX3GH_ExPduk-p-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="767" y="40" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v_iLCOKX3GH_ExPduk-p-2" target="v_iLCOKX3GH_ExPduk-p-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-2" value="String[] namabulan= {&quot;Januari&quot;, &quot;Februari&quot;, &quot;Maret&quot;, &quot;April&quot;, &quot;Mei&quot;, &quot;Juni&quot;, &quot;Juli&quot;, &quot;Agustus&quot;, &quot;September&quot;, &quot;Oktober&quot;, &quot;November&quot;, &quot;Desember&quot;};" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="715.25" y="130" width="216.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v_iLCOKX3GH_ExPduk-p-3" target="v_iLCOKX3GH_ExPduk-p-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-3" value="int index= nomor -1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="763.5" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v_iLCOKX3GH_ExPduk-p-4" target="v_iLCOKX3GH_ExPduk-p-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-4" value="input nomor" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="763.5" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-9" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v_iLCOKX3GH_ExPduk-p-6" target="v_iLCOKX3GH_ExPduk-p-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v_iLCOKX3GH_ExPduk-p-6" target="v_iLCOKX3GH_ExPduk-p-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-22" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="v_iLCOKX3GH_ExPduk-p-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.652" y="-3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-6" value="nomor &amp;gt;= 1 &amp;amp;&amp;amp; nomor &amp;lt;=12" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="770.25" y="360" width="106.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v_iLCOKX3GH_ExPduk-p-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="823.5" y="669.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-10" value="print&quot;bulan&quot;&lt;br&gt;+namabulan[index]&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="753.5" y="570" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-12" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="767" y="670" width="113" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v_iLCOKX3GH_ExPduk-p-17" target="v_iLCOKX3GH_ExPduk-p-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_iLCOKX3GH_ExPduk-p-17" value="print&quot;nomor salah&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
