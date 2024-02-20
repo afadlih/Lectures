@@ -6,16 +6,21 @@ public class BukuMain04 {
         bk1.halaman = 198;
         bk1.stok = 13;
         bk1.harga = 71000;
-
         bk1.tampilinformasi();
         bk1.terjual(5);
         bk1.gantiHarga(60000);
         bk1.tampilinformasi();
+        System.out.println(bk1.hitungHargaTotal(5));
+        System.out.println(bk1.hitungDiskon(bk1.hitungHargaTotal(5)));
 
+        
         Buku04 bk2 = new Buku04("Self Reward", "Maheera Ayesha", 160, 29, 59000);
+        System.out.println(bk2.hitungHargaTotal(11));
         bk2.terjual(11);
         bk2.tampilinformasi();
 
+
+        System.out.println();
         Buku04 bukuFadlih = new Buku04("Cahaya Ilahi", "Quraish Shihab", 200, 10, 50000);
         bukuFadlih.tampilinformasi();
 

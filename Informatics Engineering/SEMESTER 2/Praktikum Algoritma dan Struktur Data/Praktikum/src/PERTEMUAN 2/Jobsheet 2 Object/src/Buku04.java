@@ -8,6 +8,7 @@ public class Buku04 {
         System.out.println("Jumlah Halaman : " + halaman);
         System.out.println("Sisa Stok : " + stok);
         System.out.println("Harga : Rp " + harga);
+        
     }
 
     void terjual(int jml) {
@@ -23,6 +24,25 @@ public class Buku04 {
     void gantiHarga(int hrg) {
         harga = hrg;
     }
+    
+    int hitungHargaTotal(int jml) {
+        return harga * jml;
+    }
+    
+    int hitungDiskon(int hargaTotal) {
+        if (hargaTotal > 150000) {
+            return (int) (hargaTotal * 0.12);
+        } else if (hargaTotal >= 75000 && hargaTotal <= 150000) {
+            return (int) (hargaTotal * 0.05);
+        } else {
+            return 0;
+        }
+    }
+
+    int hitungHargaBayar(int hargaTotal, double diskon) {
+        return hargaTotal - (int)diskon;
+    }
+
     public Buku04(){
 
     }
@@ -33,5 +53,6 @@ public class Buku04 {
         this.stok = stok;
         harga = har;
     }
+    
 
 }
