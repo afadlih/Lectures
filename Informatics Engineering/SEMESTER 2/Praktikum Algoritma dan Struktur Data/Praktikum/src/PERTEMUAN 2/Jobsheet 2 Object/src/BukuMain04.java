@@ -15,7 +15,10 @@ public class BukuMain04 {
         Buku04 bk2 = new Buku04("Self Reward", "Maheera Ayesha", 160, 29, 59000);
         bk2.terjual(11);
         bk2.tampilinformasi();
-        
+
+        Buku04 bukuFadlih = new Buku04("Cahaya Ilahi", "Quraish Shihab", 200, 10, 50000);
+        bukuFadlih.tampilinformasi();
+
     }
 
 }

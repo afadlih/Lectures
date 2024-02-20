@@ -23,7 +23,9 @@ public class Buku04 {
     void gantiHarga(int hrg) {
         harga = hrg;
     }
-    
+    public Buku04(){
+
+    }
     public Buku04(String jud , String pg , int hal , int stok , int har){
         judul = jud;
         pengarang = pg;
