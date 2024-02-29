@@ -1,13 +1,14 @@
+package ArrayObject;
 import java.util.Scanner;
 
 public class ArrayObject {
     public static void main(String[] args) {
         Scanner sc04 = new Scanner(System.in);
         System.out.print("Masukkan jumlah persegi panjang: ");
-        int length = sc04.nextInt();
-        PersegiPanjang[] ppArray = new PersegiPanjang[length];
+        int PersegiPanjang = sc04.nextInt();
+        PersegiPanjang[] ppArray = new PersegiPanjang[PersegiPanjang];
         
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < PersegiPanjang; i++) {
             ppArray[i] = new PersegiPanjang();
             System.out.println("Persegi Panjang ke-" + i);
             System.out.print("Masukkan panjang: ");
@@ -17,7 +18,7 @@ public class ArrayObject {
             System.out.println();
         }
 
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < PersegiPanjang; i++) {
             System.out.println("Persegi Panjang ke-" + i);
             System.out.println("Panjang: " + ppArray[i].panjang + ", lebar: " + ppArray[i].lebar);
             System.out.println();
