@@ -1,4 +1,5 @@
 package ArrayObject;
+
 import java.util.Scanner;
 
 public class ArrayObject {

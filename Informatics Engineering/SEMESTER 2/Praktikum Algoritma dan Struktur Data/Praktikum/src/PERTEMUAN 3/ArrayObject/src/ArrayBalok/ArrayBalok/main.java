@@ -1,5 +1,4 @@
 package ArrayBalok;
-
 public class main {
     public static void main(String[] args) {
         Balok[] blArray = new Balok [3]; 
