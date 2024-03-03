@@ -29,4 +29,21 @@ public class Mahasiswa {
         return ipk;
     }
 
+    public double HitungIPK(Mahasiswa[] mahasiswa) {
+        double totalIPK = 0;
+        for (Mahasiswa mhs : mahasiswa) {
+            totalIPK += mhs.getIpk();
+        }
+        return totalIPK / mahasiswa.length;
+    }
+
+    public Mahasiswa IPKTertinggi(Mahasiswa[] mahasiswa) {
+        Mahasiswa IPKTertinggi = mahasiswa[0];
+        for (int i = 1; i < mahasiswa.length; i++) {
+            if (mahasiswa[i].getIpk() > IPKTertinggi.getIpk()) {
+                IPKTertinggi = mahasiswa[i];
+            }
+        }
+        return IPKTertinggi;
+    }
 }
