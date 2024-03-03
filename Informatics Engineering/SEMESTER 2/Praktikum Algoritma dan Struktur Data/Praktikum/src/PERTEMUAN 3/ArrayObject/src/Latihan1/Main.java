@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Main {
         public static void main(String[] args) {
             Scanner input04 = new Scanner(System.in);
-            boolean running = true;
+            boolean jalan = true;
 
-            while (running) {
+            while (jalan) {
                 System.out.println("Pilih bangun ruang:");
                 System.out.println("1. Bola");
                 System.out.println("2. Kerucut");
@@ -55,7 +55,7 @@ public class Main {
                         }
                         break;
                     case 0:
-                        running = false;
+                        jalan = false;
                         break;
                     default:
                         System.out.println("Pilihan tidak valid.");
