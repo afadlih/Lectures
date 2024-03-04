@@ -24,8 +24,8 @@ public class Main {
             input04.nextLine();
         }
         input04.close();
-
-        for (int i = 0; i < mahasiswa.length; i++) {
+        int i = 0;
+        for (i = 0; i < mahasiswa.length; i++) {
             System.out.println("Data Mahasiswa ke-" + (i + 1));
             System.out.println("Nama: " + mahasiswa[i].getNama());
             System.out.println("NIM: " + mahasiswa[i].getNim());
@@ -33,10 +33,9 @@ public class Main {
             System.out.println("Nilai IPK: " + mahasiswa[i].getIpk());
             System.out.println("=======================================================");
             System.out.println();
-            System.out.println("Rata-rata IPK: " + mahasiswa[i].HitungIPK(mahasiswa));
-            System.out.println("===================================================");
-            System.out.println("Mahasiswa dengan IPK Terbesar: " + mahasiswa[i].IPKTertinggi(mahasiswa).getIpk());
         }
-        input04.close();
+        System.out.println("Rata-rata IPK: " + mahasiswa[i-1].HitungIPK(mahasiswa));
+        System.out.println("===================================================");
+        System.out.println("Mahasiswa dengan IPK Terbesar: " + mahasiswa[i-1].IPKTertinggi(mahasiswa).getIpk());
     }
 }
