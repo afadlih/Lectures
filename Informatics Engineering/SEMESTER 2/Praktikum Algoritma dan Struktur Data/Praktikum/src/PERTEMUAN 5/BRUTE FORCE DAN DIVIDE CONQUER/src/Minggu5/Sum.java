@@ -9,22 +9,23 @@ public class Sum {
         this.Keuntungan = new double[elemen];
         this.total = 0;
     }
-
-    double totalBF(double arr[]){
-        for (int i = 0; i < elemen; i++) {
-            total = total + arr[i];
+    public static double totalBF(double[] keuntungan) {
+        double total = 0;
+        for (int i = 0; i < keuntungan.length; i++) {
+            total = total + keuntungan[i];
         }
         return total;
     }
 
-    double totalDC(double arr[], int l, int r){
+
+    public static double totalDC(double[] keuntungan, int l, int r){
         if (l == r) {
-            return arr[l];
+            return keuntungan[l];
         } else if (l < r) {
             int mid = (l + r) / 2;
-            double lsum = totalDC(arr, l, mid-1);
-            double rsum = totalDC(arr, mid + 1, r);
-            return lsum + rsum+arr[mid];
+            double lsum = totalDC(keuntungan, l, mid-1);
+            double rsum = totalDC(keuntungan, mid + 1, r);
+            return lsum + rsum+keuntungan[mid];
         } else {
             return 0;
         }
