@@ -19,18 +19,33 @@ public class MainPangkat {
             png[i].nilai = nilai;
             png[i].pangkat = pangkat;
         }
-        System.out.println("HASIL - BRUTE FORCE");
-        for (int i = 0; i < elemen; i++) {
-            System.out.println("Hasil dari " + png[i].nilai + " pangkat " + png[i].pangkat + " adalah "
-                    + png[i].PangkatBF(png[i].nilai, png[i].pangkat));
-        }
-        System.out.println("HASIL - DIVIDE CONQUER");
-        for (int i = 0; i < elemen; i++) {
-            System.out.println("Hasil dari " + png[i].nilai + " pangkat " + png[i].pangkat + " adalah "
-                    + png[i].PangkatDC(png[i].nilai, png[i].pangkat));
 
+        System.out.println("Pilih metode yang ingin digunakan:");
+        System.out.println("1. Brute Force");
+        System.out.println("2. Divide Conquer");
+        System.out.println("=================================="+ "\nMasukkan nomor metode yang ingin digunakan: ");
+        int metode = sc04.nextInt();
+
+        switch (metode) {
+            case 1:
+                System.out.println("HASIL - BRUTE FORCE");
+                for (int i = 0; i < elemen; i++) {
+                    System.out.println("Hasil dari " + png[i].nilai + " pangkat " + png[i].pangkat + " adalah "
+                            + png[i].PangkatBF(png[i].nilai, png[i].pangkat));
+                }
+                break;
+            case 2:
+                System.out.println("HASIL - DIVIDE CONQUER");
+                for (int i = 0; i < elemen; i++) {
+                    System.out.println("Hasil dari " + png[i].nilai + " pangkat " + png[i].pangkat + " adalah "
+                            + png[i].PangkatDC(png[i].nilai, png[i].pangkat));
+                }
+                break;
+            default:
+                System.out.println("Metode yang dipilih tidak valid.");
+                break;
         }
+
         sc04.close();
-
     }
 }
