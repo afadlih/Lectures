@@ -11,11 +11,11 @@ public class MainPangkat {
 
         Pangkat[] png = new Pangkat[elemen];
         for (int i = 0; i < elemen; i++) {
-            png[i] = new Pangkat();
             System.out.println("Masukkan nilai yang hendak dipangkatkan: ");
             int nilai = sc04.nextInt();
             System.out.println("Masukkan nilai pemangkat: ");
             int pangkat = sc04.nextInt();
+            png[i] = new Pangkat(nilai, pangkat);
             png[i].nilai = nilai;
             png[i].pangkat = pangkat;
         }
