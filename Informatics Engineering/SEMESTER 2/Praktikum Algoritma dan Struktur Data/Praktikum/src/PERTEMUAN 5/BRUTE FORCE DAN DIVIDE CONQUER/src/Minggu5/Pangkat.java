@@ -10,7 +10,6 @@ public class Pangkat {
         }
         return hasil;
     }
-
     int PangkatDC(int a, int n) {
         if (n == 1) {
             return a;
