@@ -4,11 +4,9 @@ public class Pangkat {
     public int nilai, pangkat;
 
     int PangkatBF(int a, int n) {
-        int hasil = 1;
-        int i = 0;
-        while (i < n) {
+        int hasil = 1 ;
+        for (int i = 0; i < n; i++) {
             hasil *= a;
-            i++;
         }
         return hasil;
     }
