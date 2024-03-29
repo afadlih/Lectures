@@ -48,7 +48,7 @@ public class DaftarMahasiswaBerprestasi {
         for (int i = 1; i < listMhs.length; i++) {
             Mahasiswa temp = listMhs[i];
             int j = i;
-            while (j > 0 && listMhs[j - 1].ipk > temp.ipk) {
+            while (j > 0 && listMhs[j - 1].ipk < temp.ipk) { // Ubah tanda > menjadi <
                 listMhs[j] = listMhs[j - 1];
                 j--;
             }
