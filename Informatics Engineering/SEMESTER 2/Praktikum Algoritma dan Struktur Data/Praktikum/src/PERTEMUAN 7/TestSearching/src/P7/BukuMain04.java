@@ -7,6 +7,7 @@ public class BukuMain04 {
 
         Scanner s4 = new Scanner(System.in);
         Scanner s04 = new Scanner(System.in);
+        Scanner s004 = new Scanner(System.in);
 
         PencarianBuku04 data = new PencarianBuku04();
         int jumBuku = 5;
@@ -40,23 +41,27 @@ public class BukuMain04 {
             System.out.println("____________________________________");
             System.out.println("Pencarian Data : ");
             System.out.println("Masukkan Kode Buku yang dicari: ");
-            System.out.print("Judul Buku: ");
-            String cari = s04.nextLine();
-            System.out.println("Menggunakan Sequential Search");
-            Buku04 dataBuku = data.FindBuku(cari);
-            dataBuku.tampilBuku();
-            // int posisi = data.FindSeqSearch(cari);
-            // data.TampilPosisi(cari, posisi);
-            // data.TampilData(cari, posisi);
+            System.out.print("Kode Buku: ");
+            int cari = s04.nextInt();
+            //System.out.println("Menggunakan Sequential Search");
+            //Buku04 dataBuku = data.FindBuku(cari);
+            //dataBuku.tampilBuku();
+            
+            System.out.println("Menggunakan Binary Search");
+            int posisi = data.FindBinarySearch(cari,0,jumBuku-1);
+            data.TampilPosisi(cari, posisi);
+            data.TampilData(cari, posisi);
 
             System.out.println("Apakah Anda ingin mencari lagi? (y/n)");
-            String answer = s04.nextLine();
+            String answer = s004.nextLine();
             if (answer.equalsIgnoreCase("n")) {
                 running = false;
+                System.out.println("Terima kasih!");
             }
         }
 
         s4.close();
         s04.close();
+        s004.close();
     }
 }
