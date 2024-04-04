@@ -13,7 +13,7 @@ public class BukuMain04 {
         int jumBuku = 5;
 
         System.out.println("------------------------------------");
-        System.out.println("Masukkan Data Buku Secara Urut dari Kode Buku Terkecil");
+        System.out.println("Masukkan Data Buku Secara Urut dari Kode Buku Terbesar ke Terkecil");
         for (int i = 0; i < jumBuku; i++) {
             System.out.println("____________________________________");
             System.out.println("Masukkan Data Buku ke-" + (i + 1));
