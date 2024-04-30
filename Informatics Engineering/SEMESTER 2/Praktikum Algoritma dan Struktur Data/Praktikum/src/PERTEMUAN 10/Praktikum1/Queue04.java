@@ -34,7 +34,7 @@ public class Queue04 {
         if (!isEmpty()) {
             System.out.println("Elemen terdepan: " + data[front]);
         } else {
-            System.out.println("Queue Masij kosong");
+            System.out.println("Queue Masih kosong");
         }
     }
 
@@ -65,6 +65,7 @@ public class Queue04 {
     public void enqueue(int dt) {
         if (isFull()) {
             System.out.println("Queue penuh");
+            System.exit(0); // Stop the program
         } else {
             if (isEmpty()) {
                 front = rear = 0;
@@ -84,6 +85,7 @@ public class Queue04 {
         int dt = 0;
         if (isEmpty()) {
             System.out.println("Queue masih kosong");
+            System.exit(0); // Stop the program
         } else {
             dt = data[front];
             size--;
