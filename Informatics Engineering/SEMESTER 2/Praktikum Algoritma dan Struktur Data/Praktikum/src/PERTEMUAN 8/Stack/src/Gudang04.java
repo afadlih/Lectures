@@ -93,7 +93,4 @@ public class Gudang04 {
         return biner;
     }
 
-
-
-
 }

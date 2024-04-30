@@ -19,23 +19,23 @@ public class StackKonversi04 {
 
     public void push(int data) {
         if (!isFull()) {
-            System.out.println("Stack Penuh");
-        } else {
             top++;
             tumpukanBiner[top] = data;
             System.out.println("Data " + data + " berhasil ditambahkan");
+        } else {
+            System.out.println("Stack Penuh");
         }
     }
 
     public int pop() {
         if (!isEmpty()) {
-            System.out.println("Stack Kosong");
-            return -1;
-        } else {
             int data = tumpukanBiner[top];
             top--;
             System.out.println("Data " + data + " berhasil dihapus");
             return data;
+        } else {
+            System.out.println("Stack Kosong");
+            return -1;
         }
     }
 
