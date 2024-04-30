@@ -70,4 +70,13 @@ public class Gudang04 {
         }
     }
 
+    public void lihatBarangTeratas() {
+        if (!cekKosong()) {
+            System.out.println("Barang teratas adalah " + tumpukan[top].nama);
+        } else {
+            System.out.println("Tumpukan kosong, tidak ada barang yang bisa dilihat");
+        }
+    }
+
+
 }
