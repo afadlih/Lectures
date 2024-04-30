@@ -9,7 +9,8 @@ public class QueueMain04 {
         System.out.println("2. Antrian Keluar");
         System.out.println("3. Cek Antrian Terdepan");
         System.out.println("4. Cek Semua Antrian");
-        System.out.println("5. Keluar");
+        System.out.println("5. Cek Antrian Terbelakang");
+        System.out.println("6. Keluar");
         System.out.println("----------------------");
     }
 
@@ -51,10 +52,14 @@ public class QueueMain04 {
                     antri.print();
                     break;
                 case 5:
-                    System.out.println("Terima kasih");
-                    System.exit(0);
-                    break;
+                antri.peekRear();
+                break;
+                case 6:
+                System.out.println("Terima kasih");
+                System.exit(0);
+                break;
+
             }
-        } while (pilih == 1 || pilih == 2 || pilih == 3 || pilih == 4 || pilih == 5);
+        } while (pilih == 1 || pilih == 2 || pilih == 3 || pilih == 4 || pilih == 5 || pilih == 6);
     }
 }
