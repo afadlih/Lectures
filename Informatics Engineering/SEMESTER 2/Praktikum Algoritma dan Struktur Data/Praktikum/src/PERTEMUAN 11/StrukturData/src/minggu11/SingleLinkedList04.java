@@ -1,6 +1,6 @@
 package minggu11;
 
-import org.w3c.dom.Node;
+
 
 public class SingleLinkedList04 {
     Node04 head, tail;
