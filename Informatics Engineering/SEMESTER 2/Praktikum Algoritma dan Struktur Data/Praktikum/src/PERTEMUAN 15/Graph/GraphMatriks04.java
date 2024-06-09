@@ -30,4 +30,18 @@ public class GraphMatriks04 {
             System.out.println();
         }
     }
+    public void degree (int asal) {
+        int inTotal = 0, outTotal = 0;
+        for (int i = 0; i < vertex; i++) {
+            if (matriks[asal][i] != 0) {
+                ++inTotal;
+            }
+            if (matriks[i][asal] != 0) {
+                ++outTotal;
+            }
+        }
+        System.out.println("Indegree dari Gedung " + (char) ('A' + asal) + " : " + inTotal);
+        System.out.println("Outdegree dari Gedung " + (char) ('A' + asal) + " : " + outTotal);
+        System.out.println("degree dari Gedung " + (char) ('A' + asal) + " : " + (inTotal + outTotal));
+    }
 }
