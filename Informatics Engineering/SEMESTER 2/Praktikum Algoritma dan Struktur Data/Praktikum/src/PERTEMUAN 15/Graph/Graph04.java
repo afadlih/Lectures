@@ -59,4 +59,20 @@ public class Graph04 {
             }
         }
     }
+    void Neighbours(int asal , int tujuan) throws Exception{
+        boolean isFound = false;
+        for ( int i = 0; i < list[asal].size(); i++) {
+            if (list[asal].get(i) == tujuan) {
+                isFound = true;
+                break;
+            }
+        }
+        char asalChar = (char) ('A'+ asal);
+        char tujuanChar = (char) ('A'+ tujuan);
+        if (isFound) {
+            System.out.println("Gedung " + asalChar + " dan gedung " + tujuanChar + "bertetangga");
+        } else {
+            System.out.println("Gedung " + asalChar + " dan gedung " + tujuanChar + " tidak bertetangga");
+        }
+    }
 }
